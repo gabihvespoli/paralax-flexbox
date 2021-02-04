@@ -28,7 +28,7 @@ footer {
 }
 
 .bg-color--pink{
-  background: rgb(248, 0, 153);
+  background: #f80099;
   color: whitesmoke;
 }
 
@@ -94,4 +94,60 @@ footer {
 
 .bg-img--version--2{
   background-image: url('https://images.pexels.com/photos/1428171/pexels-photo-1428171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+.content-left--main{
+  position: fixed;
+  display: grid;
+  left: 0;
+  top: 30%;
+  background: #f80099;
+  padding: 15px 10px 15px 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+.content-left--main i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.content-left--main a {
+  margin: 15px 0px 15px 0px ;
+}
+
+.content-left--main i:hover {
+  font-size: 60px;
+  color: #61ff53;
+  transition: 1s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .content-left--main {
+    position: fixed;
+    display: flex;
+    top: auto;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    border-radius: 10px 10px 0 0;
+  }
+
+  .content-left--main i {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .content-left--main a {
+    margin: 15px 20px 15px 20px ;
+  }
+
+  .content-left--main i:hover {
+    font-size: 50px;
+    color: white;
+    transition: 0;
+  }
 }
