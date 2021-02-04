@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 body {
   padding: 0;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, footer{
-  font-family: 'Ubuntu', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+footer {
+  font-family: "Ubuntu", sans-serif;
 }
 
 img {
@@ -22,12 +29,12 @@ footer {
   justify-content: center;
 }
 
-.bg-color--gray{
+.bg-color--gray {
   background: #e7e7e7;
   color: rgb(184, 184, 184);
 }
 
-.bg-color--pink{
+.bg-color--pink {
   background: #f80099;
   color: whitesmoke;
 }
@@ -37,42 +44,42 @@ footer {
   margin: 0 auto;
 }
 
-.content-default{
+.content-default {
   padding: 20px;
 }
 
-.content-card{
+.content-card {
   padding: 100px;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.content-flex{
+.content-flex {
   display: flex;
 }
 
-.flex-wrap{
+.flex-wrap {
   flex: 1;
   margin: 2px;
   width: 33%;
   justify-content: center;
 }
 
-.item-center--right{
+.item-center--right {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
 
-.item-center--left{
+.item-center--left {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-.container-paralax{
+.container-paralax {
   height: 100vh;
   display: flex;
   background-repeat: no-repeat;
@@ -81,7 +88,7 @@ footer {
   background-size: cover;
 }
 
-.content-paralax--data{
+.content-paralax--data {
   color: #fff;
   background: #e7e7e7;
   text-align: center;
@@ -92,15 +99,15 @@ footer {
   margin: 200px;
 }
 
-.bg-img--version--1{
-  background-image: url('https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+.bg-img--version--1 {
+  background-image: url("https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
-.bg-img--version--2{
-  background-image: url('https://images.pexels.com/photos/1428171/pexels-photo-1428171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+.bg-img--version--2 {
+  background-image: url("https://images.pexels.com/photos/1428171/pexels-photo-1428171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.content-left--main{
+.content-left--main {
   position: fixed;
   display: grid;
   left: 0;
@@ -116,7 +123,7 @@ footer {
 }
 
 .content-left--main a {
-  margin: 15px 0px 15px 0px ;
+  margin: 15px 0px 15px 0px;
 }
 
 .content-left--main i:hover {
@@ -146,7 +153,7 @@ footer {
   }
 
   .content-left--main a {
-    margin: 15px 20px 15px 20px ;
+    margin: 15px 20px 15px 20px;
   }
 
   .content-left--main i:hover {
